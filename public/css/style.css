@@ -1,0 +1,46 @@
+body {
+    display: flex;                
+    flex-direction: column;       
+    justify-content: center;      
+    align-items: center;         
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;             
+    font-size: 16px;             
+    line-height: 1.6;            
+    color: #333;                 
+    margin: 0;                    
+    height: 100vh;                
+    background-color: #f9f9f9;    
+}
+
+h1 {
+    position: absolute;
+    top: 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.Speech-button  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(29, 25, 25, 0.507);
+    width: 800px;
+    height: 800px;
+    border-radius: 50%;
+    border-width: 10px;
+    border: 10px solid black;
+    overflow: hidden;
+    
+}
+
+.Speech-button:active{
+    border-color: rgb(0, 126, 52);
+}
+
+.Speech-button img {
+
+    width:  700px;
+    height: 700px;
+    object-fit: cover;
+}
